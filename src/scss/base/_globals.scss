@@ -1,0 +1,33 @@
+@use 'variables' as v ;
+@use 'mixins' as m ;
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: url(../images/pattern-background-mobile.svg) , v.$paleBlue;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: v.$primaryFont;
+  font-size: 1.6rem;
+  @include m.tablet { 
+    background: url(../images/pattern-background-desktop.svg) , v.$paleBlue;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+  }
+}
+
+.container  {
+  padding: 5rem 2rem;
+  max-width: 37.5rem;
+  width: 95%;
+  margin-inline: auto;
+  @include m.tablet { 
+    padding: 0
+  }
+}
