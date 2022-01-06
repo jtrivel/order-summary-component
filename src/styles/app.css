@@ -206,4 +206,8 @@ body {
   margin-inline: auto;
   text-align: center;
   font-size: 1.4rem;
+}
+.footer__link {
+  text-decoration: none;
+  color: #3829e0;
 }/*# sourceMappingURL=app.css.map */

@@ -1,7 +1,14 @@
+@use '../base/variables' as v;
+
 .footer {
   margin-top: 5rem;
   max-width: 70%;
   margin-inline: auto;
   text-align: center;
   font-size: 1.4rem;
+
+  &__link {
+    text-decoration: none;
+    color: v.$brightBlue;
+  }
 }

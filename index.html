@@ -1,69 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./src/images/favicon-32x32.png"
-    />
-    <title>Frontend Mentor | Order summary card</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="src/styles/app.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div class="card">
-        <div class="card__box1">
-          <div class="card__hero">
-            <img
-              src="src/images/illustration-hero.svg"
-              alt="card hero"
-              class="card__img"
-            />
-          </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png" />
+  <title>Frontend Mentor | Order summary card</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="src/styles/app.css" />
+</head>
+
+<body>
+  <main class="container">
+    <div class="card">
+      <div class="card__box1">
+        <div class="card__hero">
+          <img src="src/images/illustration-hero.svg" alt="card hero" class="card__img" />
+        </div>
+      </div>
+
+      <div class="card__box2">
+        <div class="card__content">
+          <h1 class="card__title">Order Summary</h1>
+          <p class="card__desc">
+            You can now listen to millions of songs, audiobooks, and podcasts
+            on any device anywhere you like!
+          </p>
         </div>
 
-        <div class="card__box2">
-          <div class="card__content">
-            <p class="card__title">Order Summary</p>
-            <p class="card__desc">
-              You can now listen to millions of songs, audiobooks, and podcasts
-              on any device anywhere you like!
+        <div class="card__plan">
+          <div class="card__anual">
+            <img src="src/images/icon-music.svg" alt="music" />
+            <p class="card__name">
+              Anual Plan <span class="card__price">$59.99/year</span>
             </p>
           </div>
-
-          <div class="card__plan">
-            <div class="card__anual">
-              <img src="src/images/icon-music.svg" alt="music" />
-              <p class="card__name">
-                Anual Plan <span class="card__price">$59.99/year</span>
-              </p>
-            </div>
-            <div class="card__link">
-              <a href="#" class="card__change">Change</a>
-            </div>
+          <div class="card__link">
+            <a href="#" class="card__change">Change</a>
           </div>
-          <div class="card__links">
-            <a href="#" class="card__btn">Proceed to Payment</a>
-            <a href="#" class="card__cancel">Cancel Order</a>
-          </div>
+        </div>
+        <div class="card__links">
+          <a href="#" class="card__btn">Proceed to Payment</a>
+          <a href="#" class="card__cancel">Cancel Order</a>
         </div>
       </div>
     </div>
-    <footer class="footer">
-      <div class="footer__attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="#">Joaquin Trivel Mera</a>.
-      </div>
-    </footer>
-  </body>
+  </main>
+  <footer class="footer">
+    <div class="footer__attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="footer__link">Frontend Mentor</a>.
+      Coded by <a href="#" class="footer__link">Joaquin Trivel Mera</a>.
+    </div>
+  </footer>
+</body>
+
 </html>
